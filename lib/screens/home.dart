@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         children: [
           Row(
             children: [
-              Expanded(
+              const Expanded(
                 flex: 1,
                 child: RotatedBox(
                   quarterTurns: 3,
@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                   child: Container(
                     width: double.infinity,
                     height: 300,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Colors.blue,
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(80),
@@ -39,15 +39,15 @@ class HomePage extends StatelessWidget {
             ],
           ),
           Container(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
+                const Text(
                   "Aliquid rem exercitationem",
                   style: dStyleTextMain,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 Row(
@@ -69,22 +69,22 @@ class HomePage extends StatelessWidget {
                         )),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
-                Text(
+                const Text(
                   "Quo eaque quo molestiae fugit sapiente id. Sunt similique sit placeat impedit dolores eos. ",
                   style: dStyleTextMain,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
-                Text(
+                const Text(
                     "Aperiam autem perspiciatis similique molestiae aliquam minus fugit. Eaque totam qui delectus natus eum et laboriosam voluptatem. Cum sint soluta molestias quasi quidem possimus expedita sit. "),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(
@@ -98,10 +98,10 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 20),
+                  margin: const EdgeInsets.only(top: 20),
                   width: double.infinity,
                   height: 200,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topRight: Radius.circular(100),
                       bottomLeft: Radius.circular(100),
